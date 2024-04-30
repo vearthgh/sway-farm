@@ -1,7 +1,8 @@
 * {
   font-family: 'pressStart2P', Arial, sans-serif;
 }
-
+const myWallet = new WalletLocked("fuel1h3x7t25769mq5xl37h7nt6dxsvtkn665rr3lp0ght3y49a4lc6rq9e9256");
+console.log("WALLET:", myWallet.address.toB256());
 html,
 body {
   overflow: hidden;
